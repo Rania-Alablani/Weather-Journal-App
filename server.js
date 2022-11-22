@@ -30,7 +30,6 @@ const getAll = (req, res) => res.status(200).send(projectData);
 // GET Route
 app.get("/all", getAll);
 
-
 // Callback function to complete POST '/add'
 const postData = (req, res) => {
     projectData = req.body;
