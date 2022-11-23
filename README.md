@@ -8,7 +8,7 @@ This project requires you to create an asynchronous web app that uses Web API an
 ![ install express](steps/express.png)
 
 2- install bodyParser:
-![ install bodyParser](steps/bodyParser.png)
+![ install bodyParser](steps/bodyparser.png)
 3- install cors:
 
 ## Refereces: 
