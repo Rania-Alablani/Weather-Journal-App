@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Weather Journal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+      <h1>Weather Journal</h1>
+    <div id="app">
+      <div class="input-container">
+        <input type="text" id="zipCode" placeholder="Enter Zip-code (*****)" /> <!--The city is "US" by default-->
+        <input type="text" id="feelings" placeholder="Enter your feelings here" />
+        <button id="search" type="submit">search</button>
+      </div>
+
+      <div id="result-container">
+        <div class="title" id="title">Results:</div>
+        <div id="entryHolder">
+          <div id="temp"></div>
+          <div id="city"></div>
+          <div id="description"></div>
+          <div id="date"></div>
+          <div id="content"></div>
+        </div>
+      </div>
+      </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
