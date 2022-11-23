@@ -13,6 +13,9 @@ step 2: install bodyParser:
 step 3: install cors
 
 step 4: Node server.js ( to run the server)
+ 
+## Results:
+![ Results](steps/results.png)
 
 ## Refereces: 
 - [Front End Web Developer ND course from Udacity]( https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
