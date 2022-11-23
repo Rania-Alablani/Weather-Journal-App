@@ -4,12 +4,15 @@ Front End Web Developer ND program requirement
 This project requires you to create an asynchronous web app that uses Web API and user data to dynamically update the UI for a Weather-Journal App.
 
 ## Node.js Steps: 
-1- install express:
+step 1: install express:
 ![ install express](steps/express.png)
 
-2- install bodyParser:
+step 2: install bodyParser:
 ![ install bodyParser](steps/bodyparser.png)
-3- install cors:
+
+step 3: install cors
+
+step 4: Node server.js ( to run the server)
 
 ## Refereces: 
 - [Front End Web Developer ND course from Udacity]( https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
