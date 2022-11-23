@@ -5,7 +5,7 @@ This project requires you to create an asynchronous web app that uses Web API an
 
 ## Refereces: 
 - Front End Web Developer ND course from Udacity.
-- [I'm an inline-style link with title](https://www.npmjs.com/package/cors "npmjs's Homepage")
+- [npmjs](https://www.npmjs.com/package/cors)
 - HTML & CSS book by Jon Duckett
 - "Codezilla" Youtube channel
 - "Elzero web school" Youtube channel
