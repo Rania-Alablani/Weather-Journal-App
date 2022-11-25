@@ -28,4 +28,6 @@ step 4: Node server.js ( to run the server)
 - [OpenWeatherMap](https://www.OpenWeatherMap.com)
 
 
+## Weather Icons Credit:
+- [freepik](https://www.freepik.com)
 
