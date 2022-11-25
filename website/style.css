@@ -77,11 +77,24 @@ background: #703187;
   font-size: 1.7vw;
   margin-bottom: 100px;
 }
-#icon{
-  height: 50px;
-  margin-bottom:
+.column{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  border-bottom: 1px solid #bfbfbf;
 }
-#temp{
+#icon{
+  height: 70px;
+  margin-bottom: 20px;
+}
+#temp, #city{
   font-size: 2vw;
   font-weight: bold;
+}
+#description, #date, #pressure, #humidity{
+  margin: 20px 0px;
+}
+#date{
+  border-bottom: 1px solid #bfbfbf;
 }
