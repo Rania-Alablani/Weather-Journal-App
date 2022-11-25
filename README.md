@@ -14,9 +14,6 @@ step 3: install cors
 
 step 4: Node server.js ( to run the server)
  
-## Results:
-![ Results](steps/result.png)
-
 ## Refereces: 
 - [Front End Web Developer ND course from Udacity]( https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001)
 - [npmjs](https://www.npmjs.com/package/cors)
