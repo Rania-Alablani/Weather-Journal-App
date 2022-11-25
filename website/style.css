@@ -63,9 +63,10 @@ background: #703187;
 }
 #title{
   text-align: center;
-  padding: 10px 10px 233px 10px;
-  font-size: 18px;
+  padding: 10px 10px 90px 10px;
+  font-size: 24px;
   color: #ffffff;
+  font-weight: bolder;
 }
 #entryHolder{
   color: #ffffff;
@@ -73,13 +74,14 @@ background: #703187;
   align-items: center;
   width: 100%;
   height: 80%;
-  font-size: 1.5vw;
-  margin-bottom: 20px;
+  font-size: 1.7vw;
+  margin-bottom: 100px;
 }
-#content{
-  grid-column: 1 / -1;
+#icon{
+  height: 50px;
+  margin-bottom:
 }
-#temp,
-#city{
-  font-size: 3vw;
+#temp{
+  font-size: 2vw;
+  font-weight: bold;
 }
