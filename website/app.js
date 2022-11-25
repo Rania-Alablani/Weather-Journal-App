@@ -94,7 +94,7 @@ const updatingInfo = async () => {
     document.querySelector("#temp").innerHTML = "Tempreture: " + savedData.temp + '&degF'; // display letter f with the tempreture (fehrenheit)
     document.querySelector("#description").innerHTML = "Description: " + savedData.description;
     document.querySelector('#icon').innerHTML = savedData.icon;
-    document.querySelector('#pressure').innerHTML = "pressure: " + savedData.pressure;
+    document.querySelector('#pressure').innerHTML = "Pressure: " + savedData.pressure;
     document.querySelector('#humidity').innerHTML = "Humidity: " + savedData.humidity + "%";;
     document.querySelector("#content").innerHTML = "Fealings: " + savedData.feelings;
     iconCatch(icon);
