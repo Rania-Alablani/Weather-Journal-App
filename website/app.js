@@ -95,7 +95,7 @@ const updatingInfo = async () => {
     document.querySelector("#description").innerHTML = "Description: " + savedData.description;
     document.querySelector('#icon').innerHTML = savedData.icon;
     document.querySelector('#pressure').innerHTML = "pressure: " + savedData.pressure;
-    document.querySelector('#humidity').innerHTML = "Humidity: " + savedData.humidity;
+    document.querySelector('#humidity').innerHTML = "Humidity: " + savedData.humidity + "%";;
     document.querySelector("#content").innerHTML = "Fealings: " + savedData.feelings;
     iconCatch(icon);
 
