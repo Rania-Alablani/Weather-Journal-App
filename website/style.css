@@ -92,7 +92,7 @@ background: #703187;
   font-size: 2vw;
   font-weight: bold;
 }
-#description, #date, #pressure, #humidity{
+#description, #date, #pressure, #humidity, #content{
   margin: 20px 0px;
 }
 #date{
