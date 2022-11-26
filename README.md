@@ -22,6 +22,7 @@ step 4: Node server.js ( to run the server)
 - [npmjs](https://www.npmjs.com/package/cors)
 - [bithacker website](https://bithacker.dev/fetch-weather-openweathermap-api-javascript)
 - [HTML & CSS book by Jon Duckett](https://www.htmlandcssbook.com/code-samples/)
+- [Openweathermap](https://openweathermap.org/weather-conditions)
 - [W3Schools](https://www.w3schools.com/howto/howto_js_temperature_converter.asp)
 
 ## API credentials:
