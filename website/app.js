@@ -1,7 +1,10 @@
 /* Global Variables */
 const url = "https://api.openweathermap.org/data/2.5/weather?zip=";
 const perKey = '11f9f82d71e00a3eccdc9db4975a46d4';
-const apiKey = `,&appid=${perKey}&units`
+// for Celsius >> metric
+// for Fahrenheit >> imperial
+// resource: https://openweathermap.force.com/s/article/switching-between-temperature-units-2019-10-24-21-47-24
+const apiKey = `,&appid=${perKey}&units=imperial`
 let weatherIcon = document.querySelector('#icon'); //variable for the img in HTML
 const searchBtn = document.querySelector("#search");
 let d = new Date();
@@ -78,7 +81,7 @@ const updateInfo = async () => {
   const response = await fetch("http://localhost:4000/all");
   const savedData = await response.json();
 
-    document.querySelector("#temp").innerHTML =  Math.round(toFahrenheit(savedData.temp)) + '°F'; // tempreture in Fahrenheit
+    document.querySelector("#temp").innerHTML =  Math.round(savedData.temp) + '°F'; // tempreture in Fahrenheit
     // Q: Do I have to do the same for icon??  >> document.querySelector("#icon").innerHTML =  savedData.icon;
     // Answer:  I think no because I will call changeIcon ...
     changeIcon(savedData.icon);//savedData.icon will return the value of the icon such as: 01d, 02d, etc...
@@ -112,6 +115,7 @@ function changeIcon(icon){
 
 // Function 2: toFahrenheit >> to convert temp to Fahrenheit
 //resource: https://www.w3schools.com/howto/howto_js_temperature_converter.asp
+/*
 function toFahrenheit(kelvin) {
     if (kelvin >= (0)){
       return (((kelvin - 273.15)*1.8)+32).toFixed(2);
@@ -119,3 +123,4 @@ function toFahrenheit(kelvin) {
         return 'below zero degrees';
     }
 }
+*/
